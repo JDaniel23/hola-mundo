@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+       <thead>
+        <tr> 
+            <th>Precio</th>
+            <th>Producto</th>
+        </tr>
+
+       </thead>
+       <tbody>
+        <tr>
+            <td>Hola Bits</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz</td>
+            <td>19.90$</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz muy feliz</td>
+            <td>29$</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <td>Total</td>
+        <td>49.90</td>
+       </tfoot>
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <!-- Ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol >
+                <li style="list-style-type: lower-roman;">Sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="post">
+       <label for="Nombre">Nombre</label> <input value="Chanchito" type="text" id="Nombre" name="nombre" placeholder="Chanchito feliz...."/><br>
+       <label for="Apellido">Apellido</label><input value="feliz" type="text" id="Apellido" name="Apellido" placeholder="Chanchito triste"/><br>
+       <label for="comentario">Comentario</label><textarea rows="10" cols="50" id="comentario" name="comentario" placeholder="comentario">Este es un valor por defecto</textarea>
+       <br> 
+        <button type="button">boton </button>
+        <button type="reset">reset</button> </button>
+        <button type="submit">Enviar</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chancito feliz</h6>
+    <p>Chanchito feliz estamuy feliz</p>
+    <p>chanchito triste esta muy triste</p>
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p>texto <span style="color: blue;">un poco mas largo </span>  para mostrar <br> la etiqueta span</p>
+    <!-- Este texto es un comentario
+    y no va a aparecer en el explorarador
+    -->
+    <a target="_blank" href="https://www.google.co.ve/"> Ir a google</a>
+    <img src="img/Edinson Cavani.jpg"  width="400"/>
+    </body>
+</html>
